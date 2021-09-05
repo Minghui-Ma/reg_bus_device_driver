@@ -1,0 +1,1 @@
+cmd_/home/marcus/reg_bus_device_driver/reg_driver/driver.ko := ld -r -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/marcus/reg_bus_device_driver/reg_driver/driver.ko /home/marcus/reg_bus_device_driver/reg_driver/driver.o /home/marcus/reg_bus_device_driver/reg_driver/driver.mod.o;  true

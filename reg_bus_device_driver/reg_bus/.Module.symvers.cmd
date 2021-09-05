@@ -1,0 +1,1 @@
+cmd_/home/marcus/reg_bus_device_driver/reg_bus/Module.symvers := sed 's/ko$$/o/' /home/marcus/reg_bus_device_driver/reg_bus/modules.order | scripts/mod/modpost -m -a   -o /home/marcus/reg_bus_device_driver/reg_bus/Module.symvers -e -i Module.symvers   -T -
